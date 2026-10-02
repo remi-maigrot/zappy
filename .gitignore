@@ -1,0 +1,33 @@
+# Binaries
+zappy_server
+zappy_gui
+zappy_ai
+Server/unit_tests
+GUI/unit_tests
+
+# Headers copied at build time by Server/lib
+Server/include/linked_lists.h
+Server/include/my.h
+
+# C / C++ build artifacts
+*.o
+*.d
+*.a
+*.so
+*.dylib
+*.gch
+*.gcno
+*.gcda
+covr/
+vgcore.*
+coding-style-reports.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/

@@ -4,17 +4,13 @@ A networked multiplayer simulation with a C game server, an SFML graphical clien
 
 ## About
 
-Epitech team project (2023, second year). Zappy takes place on Trantor, a world where resources (food and six kinds of stones) spawn randomly on a tile map. Teams of autonomous AI players ("Trantorians") must gather resources, survive by eating, and perform elevation rituals to level up. The first team with six players at the maximum level wins.
+Built in 2023. Zappy takes place on Trantor, a world where resources (food and six kinds of stones) spawn randomly on a tile map. Teams of autonomous AI players ("Trantorians") must gather resources, survive by eating, and perform elevation rituals to level up. The first team with six players at the maximum level wins.
 
 The project is split into three independent programs:
 
 - **Server** (C): owns the world state, the game clock and the network protocol.
 - **GUI** (C++ / SFML): a spectator client that renders the map, resources and players.
 - **AI** (Python): autonomous clients, each driving one Trantorian.
-
-## My role
-
-[À COMPLÉTER PAR RÉMI]
 
 ## Features
 
